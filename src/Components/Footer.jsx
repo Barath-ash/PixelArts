@@ -46,7 +46,7 @@ const Footer = () => {
             <input 
               type="text" 
               placeholder='Enter email' 
-              className='outline-none p-2 text-lg font-mono bg-transparent'
+              className='outline-none p-1.5 text-sm font-mono bg-transparent'
             />
             <span className='px-2 cursor-pointer text-lg transition-transform ease-in-out transform duration-300 hover:scale-130'><IoIosArrowForward /></span>
           </div>
