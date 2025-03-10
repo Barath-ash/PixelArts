@@ -17,6 +17,7 @@ import img9 from './assets/Cloths/t-shirt.webp';
 import img10 from './assets/Cloths/whiteshoes.jpg';
 import img11 from './assets/Cloths/watch.avif';
 import img12 from './assets/Cloths/traditional.jpg';
+import Explore from './Components/Explore';
 
 function App() {
   // ✅ Use arrays instead of objects
@@ -35,11 +36,12 @@ function App() {
       <Banner />
       <Trending />
       
-      {/* ✅ Fixed prop names to match ClothComponent */}
-      <ClothComponent images={imgLayer1} names={namesLayer1} prices={pricesLayer1} />
+       <ClothComponent images={imgLayer1} names={namesLayer1} prices={pricesLayer1} />
+      <Explore/>
+      <ClothComponent images={imgLayer2} names={namesLayer2} prices={pricesLayer2} />
 
-      {/* ✅ Un-comment below line to add another layer */}
-      {/* <ClothComponent images={imgLayer2} names={namesLayer2} prices={pricesLayer2} /> */}
+      
+       
     </>
   );
 }

@@ -8,7 +8,7 @@ const ClothComponent = ({ images, names, prices }) => {
           <div key={index} className="flex flex-col items-center w-[30%]">
             <img
               src={image}
-              alt={names[index]} // ✅ Added correct alt text
+              alt={names[index]}  
               className="w-full h-[42vh] object-cover rounded-xl shadow-md"
             />
             <h3 className="text-center text-lg font-bold tracking-widest mt-2">{names[index]}</h3>
