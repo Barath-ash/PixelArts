@@ -8,7 +8,7 @@ import { FaCircleUser } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <> <div className='bg-white shadow-xl'>
-      <div className="flex justify-evenly gap-55 p-4 m-1.5 ">
+      <div className="flex justify-evenly gap-55 p-3.5 m-1.5 ">
         <div>
           <h1 className="relative right-12 text-2xl font-bold">PixelArts</h1>
         </div>
