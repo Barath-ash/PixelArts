@@ -7,13 +7,13 @@ import { FaCircleUser } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div className="bg-white shadow-xl p-1">
-      <div className="flex items-center justify-between px-10 py-4 ">
+      <div className="flex items-center justify-between px-10 py-4 mb-3 ">
         
        
         <h1 className="text-2xl font-bold text-gray-900">PixelArts</h1>
         
        
-        <ul className="flex gap-20 text-sm font-medium text-gray-800">
+        <ul className="flex gap-20 text-sm font-medium text-gray-800  tracking-widest">
           <li className="flex items-center gap-2 cursor-pointer hover:text-gray-500 transition-all">
             <FaHome className="text-lg" />
             HOME
