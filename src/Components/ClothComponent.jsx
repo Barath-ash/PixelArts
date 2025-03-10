@@ -3,7 +3,7 @@ import React from 'react';
 const ClothComponent = ({ images, names, prices }) => {
   return (
     <div className="flex flex-col items-center gap-8 px-4">
-      <div className="flex flex-wrap justify-center gap-8 w-full max-w-5xl">
+      <div className="flex flex-wrap justify-center gap-8 w-full max-w-6.5xl">
         {images.map((image, index) => (
           <div key={index} className="flex flex-col items-center w-[30%]">
             <img
