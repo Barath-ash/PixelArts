@@ -9,7 +9,7 @@ const ClothComponent = ({ images, names, prices }) => {
             <img
               src={image}
               alt={names[index]}  
-              className="w-full h-[42vh] object-cover rounded-xl shadow-md"
+              className="w-full h-[42vh] mt-6 object-cover rounded-xl transition-transform duration-300 ease-in-out transform hover:scale-108"
             />
             <h3 className="text-center text-lg font-bold tracking-widest mt-2">{names[index]}</h3>
             <p className="text-center text-lg font-mono">{prices[index]}</p>
