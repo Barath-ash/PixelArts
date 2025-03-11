@@ -4,7 +4,7 @@ import Banner from './Components/Banner';
 import ClothComponent from './Components/ClothComponent';
 import Trending from './Components/Trending';
 
-// Importing images
+
 import img1 from './assets/Cloths/blackhoddie.jpg';
 import img2 from './assets/Cloths/derin.jpg';
 import img3 from './assets/Cloths/polo.webp';
@@ -22,7 +22,7 @@ import Details from './Components/Details';
 import Footer from './Components/Footer';
 
 function App() {
-  // ✅ Use arrays instead of objects
+  
 
   const imgLayer1 = [img1, img2, img3, img4, img5, img6];
   const namesLayer1 = ["Black Hoodie", "Denim Shirt", "Red Polo T-Shirt", "Cargo Jeans", "Black Trousers", "Cargo Shorts"];
